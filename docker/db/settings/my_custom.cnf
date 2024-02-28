@@ -1,0 +1,13 @@
+[mysqld]
+innodb_default_row_format = dynamic
+innodb_file_format = barracuda
+innodb_file_per_table = true
+innodb_large_prefix = true
+slow_query_log = 1
+slow_query_log_file = /var/log/mysql/slow.log
+long_query_time = 15
+max_connections = 1000
+tmp_table_size = 4G
+max_heap_table_size = 4G
+character-set-server = latin1
+collation-server = latin1_swedish_ci

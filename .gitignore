@@ -1,0 +1,11 @@
+.env
+/docker/db/mysql/*
+/vendor/
+/logs/*
+composer.lock
+
+
+/.fleet
+/.idea
+/.vscode
+/node_modules
